@@ -123,7 +123,7 @@ nnoremap <leader>b :action GotoRelated<CR>
 nnoremap <leader>ch :action CallHierarchy<CR>
 "nnoremap <leader> :action ShowNavBar<CR>
 nnoremap <leader>fs :action FileStructurePopup<CR>
-nnoremap <c-o> :action GotoSymbol<CR>
+"nnoremap <c-o> :action GotoSymbol<CR>
 nnoremap gc :action GotoClass<CR>
 nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
@@ -137,14 +137,14 @@ nnoremap <leader>wp :action JumpToLastWindow<CR>
 nnoremap <leader>wx :action HideAllWindows<CR>
 
 """ Running and Debugging
-nnoremap ,r :action ContextRun<CR>
-nnoremap ,c :action RunClass<CR>
-nnoremap ,f :action ChooseRunConfiguration<CR>
-nnoremap ,t :action ActivateRunToolWindow<CR>
-nnoremap ,u :action Rerun<CR>
+nnoremap <leader>ar :action ContextRun<CR>
+nnoremap <leader>ac :action RunClass<CR>
+nnoremap <leader>ao :action ChooseRunConfiguration<CR>
+nnoremap <leader>at :action ActivateRunToolWindow<CR>
+nnoremap <leader>au :action Rerun<CR>
 
-nnoremap ,f :action RerunFailedTests<CR>
+nnoremap <leader>af :action RerunFailedTests<CR>
 
-nnoremap ,b :action ToggleLineBreakpoint<CR>
-nnoremap ,d :action ContextDebug<CR>
-nnoremap ,n :action ActivateDebugToolWindow<CR>
+nnoremap <leader>ab :action ToggleLineBreakpoint<CR>
+nnoremap <leader>ad :action ContextDebug<CR>
+nnoremap <leader>an :action ActivateDebugToolWindow<CR>
