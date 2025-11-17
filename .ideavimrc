@@ -64,7 +64,7 @@ nnoremap <Leader>wv :action SplitVertically<CR>
 nnoremap <Leader>wh :action SplitHorizontally<CR>
 nnoremap <Leader>wd :action Unsplit<CR>
 
-nnoremap <c-m> :action MoveEditorToOppositeTabGroup<CR>
+"nnoremap <c-m> :action MoveEditorToOppositeTabGroup<CR>
 
 " -- Navigate between splits in this editor window
 sethandler <c-j> a:vim
@@ -117,6 +117,7 @@ nnoremap ss :action FindInPath<CR>
 nnoremap sa :action GotoAction<CR>
 nnoremap sf :action GotoFile<CR>
 nnoremap su :action FindUsages<CR>
+nnoremap sc :action GotoClass<CR>
 
 " -- Go to navigation
 nnoremap <leader>b :action GotoRelated<CR>
@@ -124,7 +125,6 @@ nnoremap <leader>ch :action CallHierarchy<CR>
 "nnoremap <leader> :action ShowNavBar<CR>
 nnoremap <leader>fs :action FileStructurePopup<CR>
 "nnoremap <c-o> :action GotoSymbol<CR>
-nnoremap gc :action GotoClass<CR>
 nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
 nnoremap gp :action GotoSuperMethod<CR>
